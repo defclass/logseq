@@ -4,4 +4,7 @@
 
 (deftest test-find-first
   (testing "find-first"
-    (is (= 1 (find-first identity [1])))))
+    (is (= 1 (find-first identity [1]))))
+
+  (testing "false demo"
+    (is (= 1 "abc"))))
